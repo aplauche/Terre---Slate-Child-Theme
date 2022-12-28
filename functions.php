@@ -11,8 +11,8 @@ add_action( 'wp_enqueue_scripts', 'slate_enqueue_styles', 99 );
 // Add our custom block pattern categories
 function slate_block_pattern_category() {
 	register_block_pattern_category( 'slate-patterns', array(
-		'label' => __( 'Slate Custom', 'slate' )
+		'label' => __( 'Custom Slate Patterns', 'slate' )
 	) );
 }
 
-add_action( 'init', 'slate_block_pattern_category' );
+add_action( 'init', 'slate_block_pattern_category', 5 );
