@@ -15,6 +15,51 @@ Text Domain: slate
 Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, featured-images, full-site-editing, rtl-language-support, theme-options, threaded-comments, translation-ready, wide-blocks
 */
 
-.wp-block-group.is-style-rounded {
+/* ---------------------------
+------------------------------
+|	Block Styling           
+------------------------------
+--------------------------- */
+
+
+/* Buttons
+--------------------------------------------- */
+
+/* Need to add border to all buttons to match height on secondary style */
+.wp-block-button .wp-element-button {
+	border: 2px solid var(--wp--preset--color--primary);
+	background: transparent;
+}
+
+.wp-block-button .wp-element-button:hover {
+	background: var(--wp--preset--color--primary);
+	color: var(--wp--preset--color--white);
+}
+
+.wp-block-button.is-style-secondary-button .wp-element-button {
+	background-color: transparent;
+	border: 2px solid var(--wp--preset--color--bg);
+	color: var(--wp--preset--color--bg);
+}
+
+.wp-block-button.is-style-secondary-button .wp-element-button:hover {
+	background: var(--wp--preset--color--white);
+	color: var(--wp--preset--color--bg);
+}
+
+/* Cover
+--------------------------------------------- */
+
+.wp-block-cover.is-style-rounded {
+	border-radius: var(--wp--custom--rounding--base);
+}
+.wp-block-cover.is-style-rounded img {
+	border-radius: var(--wp--custom--rounding--base);
+}
+
+/* Group
+--------------------------------------------- */
+
+.wp-block-group.is-style-bordered {
 	border: none;
 }
