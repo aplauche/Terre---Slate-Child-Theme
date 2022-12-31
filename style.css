@@ -15,6 +15,9 @@ Text Domain: slate
 Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, featured-images, full-site-editing, rtl-language-support, theme-options, threaded-comments, translation-ready, wide-blocks
 */
 
+
+
+
 /* ---------------------------
 ------------------------------
 |	Block Styling           
@@ -62,4 +65,11 @@ Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, feature
 
 .wp-block-group.is-style-bordered {
 	border: none;
+}
+
+
+/* Query
+--------------------------------------------- */
+.wp-block-query>ul>li>.wp-block-group {
+	height: 100%;
 }

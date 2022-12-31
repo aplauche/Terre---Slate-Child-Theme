@@ -7,10 +7,12 @@
  * Viewport Width: 1280
  */
 ?>
-<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|xs","right":"var:preset|spacing|xs","bottom":"var:preset|spacing|xs","left":"var:preset|spacing|xs"}}},"backgroundColor":"bg-secondary","className":"is-style-full-height","layout":{"type":"constrained"}} -->
-<div class="wp-block-group alignfull is-style-full-height has-bg-secondary-background-color has-background" style="padding-top:var(--wp--preset--spacing--xs);padding-right:var(--wp--preset--spacing--xs);padding-bottom:var(--wp--preset--spacing--xs);padding-left:var(--wp--preset--spacing--xs)"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|md"}},"layout":{"type":"constrained"}} -->
+
+
+<!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|lg","right":"var:preset|spacing|xs","bottom":"var:preset|spacing|lg","left":"var:preset|spacing|xs"}}},"backgroundColor":"bg-secondary","className":"is-style-bordered","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignwide is-style-bordered has-bg-secondary-background-color has-background" style="padding-top:var(--wp--preset--spacing--lg);padding-right:var(--wp--preset--spacing--xs);padding-bottom:var(--wp--preset--spacing--lg);padding-left:var(--wp--preset--spacing--xs)"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|md"}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:image {"align":"center","width":150,"sizeSlug":"large","linkDestination":"none","style":{"border":{"radius":"75px"}}} -->
-<figure class="wp-block-image aligncenter size-large is-resized has-custom-border"><img src="<?php echo get_template_directory_uri( ) . '/assets/terre-sample.jpg'?>" alt="" class="" style="border-radius:75px" width="150"/></figure>
+<figure class="wp-block-image aligncenter size-large is-resized has-custom-border"><img src="<?php echo get_template_directory_uri( ) . '/assets/terre-sample.jpg'?>" alt="" style="border-radius:75px" width="150"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading {"textAlign":"center"} -->
@@ -62,4 +64,3 @@
 <!-- /wp:social-links --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
-
