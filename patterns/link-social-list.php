@@ -9,8 +9,8 @@
 ?>
 
 
-<!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|lg","right":"var:preset|spacing|xs","bottom":"var:preset|spacing|lg","left":"var:preset|spacing|xs"}}},"backgroundColor":"bg-secondary","className":"is-style-bordered","layout":{"type":"constrained"}} -->
-<div class="wp-block-group alignwide is-style-bordered has-bg-secondary-background-color has-background" style="padding-top:var(--wp--preset--spacing--lg);padding-right:var(--wp--preset--spacing--xs);padding-bottom:var(--wp--preset--spacing--lg);padding-left:var(--wp--preset--spacing--xs)"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|md"}},"layout":{"type":"constrained"}} -->
+<!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|lg","right":"var:preset|spacing|xs","bottom":"var:preset|spacing|lg","left":"var:preset|spacing|xs"}}},"backgroundColor":"base-secondary","className":"is-style-bordered","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignwide is-style-bordered has-base-secondary-background-color has-background" style="padding-top:var(--wp--preset--spacing--lg);padding-right:var(--wp--preset--spacing--xs);padding-bottom:var(--wp--preset--spacing--lg);padding-left:var(--wp--preset--spacing--xs)"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|md"}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:image {"align":"center","width":150,"sizeSlug":"large","linkDestination":"none","style":{"border":{"radius":"75px"}}} -->
 <figure class="wp-block-image aligncenter size-large is-resized has-custom-border"><img src="<?php echo get_template_directory_uri( ) . '/assets/terre-sample.jpg'?>" alt="" style="border-radius:75px" width="150"/></figure>
 <!-- /wp:image -->
@@ -53,7 +53,7 @@
 <!-- /wp:column --></div>
 <!-- /wp:columns -->
 
-<!-- wp:social-links {"iconColor":"bg-secondary","iconColorValue":"#222","iconBackgroundColor":"primary","iconBackgroundColorValue":"#ec8154","layout":{"type":"flex","justifyContent":"center"}} -->
+<!-- wp:social-links {"iconColor":"base-secondary","iconColorValue":"#222","iconBackgroundColor":"primary","iconBackgroundColorValue":"#ec8154","layout":{"type":"flex","justifyContent":"center"}} -->
 <ul class="wp-block-social-links has-icon-color has-icon-background-color"><!-- wp:social-link {"url":"facebook.com","service":"facebook"} /-->
 
 <!-- wp:social-link {"url":"twitter.com","service":"twitter"} /-->

@@ -10,8 +10,8 @@
 
 
 
-<!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|lg","bottom":"var:preset|spacing|lg","right":"var:preset|spacing|sm","left":"var:preset|spacing|sm"}}},"backgroundColor":"bg-secondary","className":"is-style-bordered","layout":{"type":"constrained"}} -->
-<div class="wp-block-group alignwide is-style-bordered has-bg-secondary-background-color has-background" style="padding-top:var(--wp--preset--spacing--lg);padding-right:var(--wp--preset--spacing--sm);padding-bottom:var(--wp--preset--spacing--lg);padding-left:var(--wp--preset--spacing--sm)"><!-- wp:paragraph {"align":"center","style":{"typography":{"textTransform":"uppercase","letterSpacing":"3px"}},"textColor":"primary"} -->
+<!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|lg","bottom":"var:preset|spacing|lg","right":"var:preset|spacing|sm","left":"var:preset|spacing|sm"}}},"backgroundColor":"base-secondary","className":"is-style-bordered","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignwide is-style-bordered has-base-secondary-background-color has-background" style="padding-top:var(--wp--preset--spacing--lg);padding-right:var(--wp--preset--spacing--sm);padding-bottom:var(--wp--preset--spacing--lg);padding-left:var(--wp--preset--spacing--sm)"><!-- wp:paragraph {"align":"center","style":{"typography":{"textTransform":"uppercase","letterSpacing":"3px"}},"textColor":"primary"} -->
 <p class="has-text-align-center has-primary-color has-text-color" style="letter-spacing:3px;text-transform:uppercase">Lead Text</p>
 <!-- /wp:paragraph -->
 
