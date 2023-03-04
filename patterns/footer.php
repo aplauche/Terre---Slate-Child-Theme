@@ -13,7 +13,7 @@
 <div class="wp-block-group alignwide is-style-bordered" style="margin-top:var(--wp--preset--spacing--lg);margin-bottom:var(--wp--preset--spacing--lg);padding-top:var(--wp--preset--spacing--lg);padding-right:var(--wp--preset--spacing--lg);padding-bottom:var(--wp--preset--spacing--lg);padding-left:var(--wp--preset--spacing--lg)"><!-- wp:columns {"verticalAlignment":"center","align":"wide"} -->
 <div class="wp-block-columns alignwide are-vertically-aligned-center"><!-- wp:column {"verticalAlignment":"center"} -->
 <div class="wp-block-column is-vertically-aligned-center"><!-- wp:paragraph {"align":"center"} -->
-<p class="has-text-align-center">© <?php echo esc_html( gmdate( 'Y' ) ); ?>  - <a href="https://antonplauche.com">Anton Plauche</a></p>
+<p class="has-text-align-center">© <?php echo esc_html( gmdate( 'Y' ) ); ?>  - <a href="https://fullstackdigital.io">Full Stack Digital</a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column -->
 
