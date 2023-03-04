@@ -12,7 +12,7 @@ A dark modern child theme for the Terre base theme
 
 == Changelog ==
 
-= 0.0.1 =
+= 0.1.0 =
 * Initial release
 
 == Copyright ==
