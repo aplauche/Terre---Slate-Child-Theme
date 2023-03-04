@@ -33,7 +33,7 @@ add_action( 'init', 'slate_block_pattern_category', 5 );
 /**
  * Enqueue editor JS file for Gutenberg mods.
  *
- * @since 0.0.1
+ * @since 0.1.0
  */
 function slate_blocktheme_gutenberg_styles() {
   wp_enqueue_script( 
